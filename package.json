@@ -1,0 +1,24 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "A web app that allows a user to input and analyze their fitness data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanKensinger/fitness-tracker.git"
+  },
+  "author": "Tristan Kensinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TristanKensinger/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/TristanKensinger/fitness-tracker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}
