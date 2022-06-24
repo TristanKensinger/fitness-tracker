@@ -3,6 +3,8 @@ let todayRadio = $('#todayRadio');
 let pastRadio = $('#pastRadio');
 let dateInput = $('#dateInput');
 let workoutForm = $('#workoutForm');
+let error = $('#error');
+let errorText = $('#errorText');
 
 // page setup
 workoutLink.addClass('active');

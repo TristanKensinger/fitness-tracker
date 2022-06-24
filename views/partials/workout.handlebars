@@ -2,6 +2,18 @@
     <div class="row">
         <h1>Enter a Workout</h1>
     </div>
+
+    {{!-- error message --}}
+    <div id="error">
+        <div class="alert alert-danger alert-dismissible d-flex align-items-center fade show">
+            <i class="bi-exclamation-octagon-fill"></i>
+            <strong class="mx-2">Error!</strong>
+            <div id="errorText"></div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    {{!-- form --}}
     <div class="row">
         <form id="workoutForm">
             {{!-- date of workout --}}
